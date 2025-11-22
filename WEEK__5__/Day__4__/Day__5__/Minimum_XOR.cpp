@@ -14,7 +14,7 @@ int main(){
             XOR ^= v[i];
         }
         int ans =XOR;
-        for(int i =0; i<n; i++){
+        for(int i = 0; i<n; i++){
             int currXOR = (XOR ^ v[i]);
             ans = min(ans, currXOR);
         }
@@ -24,4 +24,5 @@ int main(){
     return 0; 
 
    
+
 }
